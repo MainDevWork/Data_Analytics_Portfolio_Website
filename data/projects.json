@@ -1,0 +1,57 @@
+{
+  "profile": {
+    "name": "Data Analytics & AI Portfolio",
+    "role": "Data Analyst",
+    "tagline": "Turning complex data into clear, actionable insights.",
+    "location": "Johannesburg, South Africa",
+    "github": "https://github.com/HeyNdibbs",
+    "linkedin": "https://www.linkedin.com/in/ndivhuwo-makhavhu",
+    "email": "ndivhumakhavhu@gmail.com"
+  },
+  "projects": [
+    {
+      "id": "sme-rise-capital-matching",
+      "title": "SME Rise Capital Matching",
+      "category": "data",
+      "summary": "Data-driven capital matching model for SMEs.",
+      "description": "Developed a comprehensive model to analyze SME financial data and pair them with appropriate capital providers. Increased match success rate by 25%.",
+      "stack": ["Python", "Pandas", "Scikit-Learn"],
+      "repo": "https://github.com/HeyNdibbs/sme-rise-capital-matching",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "id": "bank-customer-churn-dashboard",
+      "title": "Bank Customer Churn Dashboard",
+      "category": "data",
+      "summary": "Interactive dashboard tracking customer attrition metrics.",
+      "description": "An end-to-end Power BI dashboard visualizing key churn drivers across demographics and product lines, enabling proactive retention strategies.",
+      "stack": ["Power BI", "SQL", "DAX"],
+      "repo": "https://github.com/HeyNdibbs/bank-customer-churn-dashboard",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "id": "telecom-churn-analysis",
+      "title": "Telecom Churn Analysis",
+      "category": "data",
+      "summary": "Predictive analysis of telecom user retention.",
+      "description": "Utilized logistic regression and random forest models to predict customer churn in a telecom dataset, identifying top contributing factors like contract type and monthly charges.",
+      "stack": ["Python", "Jupyter", "Seaborn"],
+      "repo": "https://github.com/HeyNdibbs/telecom-churn-analysis",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "id": "investor-education-chatbot",
+      "title": "Investor Education Chatbot",
+      "category": "ai",
+      "summary": "AI assistant for financial literacy.",
+      "description": "An LLM-powered chatbot utilizing RAG to answer investor queries based on verified financial educational materials. Built with LangChain and OpenAI.",
+      "stack": ["Python", "LangChain", "OpenAI API"],
+      "repo": "https://github.com/HeyNdibbs/investor-education-chatbot",
+      "demo": "",
+      "featured": true
+    }
+  ]
+}
