@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     // Render static profile sections
     if (data.profile) {
+        if (data.profile.siteTitle) {
+            document.title = data.profile.siteTitle;
+        }
         heroSection.innerHTML = renderHero(data.profile);
         aboutSection.innerHTML = renderAbout(data.profile);
         footer.innerHTML = renderFooter(data.profile);

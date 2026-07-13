@@ -1,13 +1,20 @@
 export function renderHero(profile) {
+    const avatarHTML = profile.avatar
+        ? `<img class="avatar" src="${escapeHTML(profile.avatar)}" alt="${escapeHTML(profile.avatarAlt || profile.name)}" width="160" height="160" decoding="async">`
+        : '';
+
     return `
-        <h1>${escapeHTML(profile.name)}</h1>
-        <div class="role">${escapeHTML(profile.role)}</div>
-        <p>${escapeHTML(profile.tagline)}</p>
-        <ul class="social-links">
-            ${profile.github ? `<li><a href="${escapeHTML(profile.github)}" target="_blank" rel="noopener noreferrer">GitHub</a></li>` : ''}
-            ${profile.linkedin ? `<li><a href="${escapeHTML(profile.linkedin)}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>` : ''}
-            ${profile.email ? `<li><a href="mailto:${escapeHTML(profile.email)}">Email</a></li>` : ''}
-        </ul>
+        ${avatarHTML}
+        <div class="hero-text">
+            <h1>${escapeHTML(profile.name)}</h1>
+            <div class="role">${escapeHTML(profile.role)}</div>
+            <p>${escapeHTML(profile.tagline)}</p>
+            <ul class="social-links">
+                ${profile.github ? `<li><a href="${escapeHTML(profile.github)}" target="_blank" rel="noopener noreferrer">GitHub</a></li>` : ''}
+                ${profile.linkedin ? `<li><a href="${escapeHTML(profile.linkedin)}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>` : ''}
+                ${profile.email ? `<li><a href="mailto:${escapeHTML(profile.email)}">Email</a></li>` : ''}
+            </ul>
+        </div>
     `;
 }
 
@@ -40,11 +47,15 @@ export function renderProjectCard(project) {
 }
 
 export function renderAbout(profile) {
+    const paragraphs = Array.isArray(profile.about) ? profile.about : [];
+    const bodyHTML = paragraphs.length
+        ? paragraphs.map(text => `<p>${escapeHTML(text)}</p>`).join('')
+        : `<p>I'm ${escapeHTML(profile.name)}, a ${escapeHTML(profile.role)} based in ${escapeHTML(profile.location)}.</p>`;
+
     return `
         <div class="about-content">
             <h2>About</h2>
-            <p>I'm ${escapeHTML(profile.name)}, a ${escapeHTML(profile.role)} based in ${escapeHTML(profile.location)}.</p>
-            <p>My background in web development equips me with a unique approach to data analysis — I don't just find the insights, I build the tools and dashboards that make them accessible and actionable.</p>
+            ${bodyHTML}
         </div>
     `;
 }

@@ -1,9 +1,17 @@
 {
   "profile": {
-    "name": "Data Analytics & AI Portfolio",
+    "name": "Ndivhuwo Makhavhu",
+    "siteTitle": "Data Analytics & AI Portfolio",
     "role": "Data Analyst",
     "tagline": "Turning complex data into clear, actionable insights.",
     "location": "Sandton, South Africa",
+    "avatar": "assets/profile.jpg",
+    "avatarAlt": "Ndivhuwo Makhavhu",
+    "about": [
+      "I'm Ndivhuwo Makhavhu, a data analyst based in Sandton, South Africa, working across financial markets and lead analytics.",
+      "My work starts with raw, scattered information and ends with something a business can act on. I curate data solutions and dashboards that turn that information into decisions — which leads to pursue, what actually converts, and where the value is really sitting. Most recently that's meant modelling how South African SMEs get matched to capital, and isolating the levers that move funding conversion.",
+      "I came into analytics from web development, so I tend to build the thing that carries the insight rather than hand over a spreadsheet and hope. Increasingly I'm folding AI into those solutions — not as a bolt-on, but where it makes the analysis sharper and the tools genuinely more useful."
+    ],
     "github": "https://github.com/MainDevWork",
     "linkedin": "https://www.linkedin.com/in/ndivhuwo-makhavhu",
     "email": "ndivhumakhavhu@gmail.com"
