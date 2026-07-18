@@ -19,12 +19,23 @@
   "projects": [
     {
       "id": "sme-rise-capital-matching",
-      "title": "SME Rise Capital Matching",
+      "title": "SME Capital Funding Optimization",
       "category": "jse",
       "summary": "Data-driven capital matching model for SMEs.",
-      "description": "Developed a comprehensive model to analyze SME financial data and pair them with appropriate capital providers. Provided Recommedations on strategies on to optimize conversion rate on SME reciving capital funding.",
-      "stack": ["Python", "Pandas", "NumPy", "openpyxl", "Power BI"],
+      "description": "Developed a comprehensive model to analyze SME applicant data from the JSE's SME Capital Matching Campaign into tiers determining viablilty to be recieve capital funding. Provided Recommedations on strategies on to optimize conversion rate on SME reciving capital funding.",
+      "stack": ["Python", "Pandas", "Power BI"],
       "repo": "https://maindevwork.github.io/SME_Capital_Funding_Optimization/",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "id": "cross-departmental-demand-revenue-console",
+      "title": "Cross-Departmental Demand & Revenue Insights Console",
+      "category": "jse",
+      "summary": "Self-updating tracker consolidating campaign leads and revenue.",
+      "description": "Built a self-updating tracker that consolidates daily leads and revenue from campaigns run across multiple divisions. Replaced scattered, manually maintained spreadsheets with a single, date-anchored source of info for tracking and analysing campaign performance.",
+      "stack": ["Microsoft Excel"],
+      "repo": "https://maindevwork.github.io/Cross-Departmental_Demand_Revenue_Insights_Console/",
       "demo": "",
       "featured": true
     }
