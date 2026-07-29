@@ -22,7 +22,7 @@
       "title": "SME Capital Funding Optimization",
       "category": "jse",
       "summary": "Data-driven capital matching model for SMEs.",
-      "description": "Developed a comprehensive model to analyze SME applicant data from the JSE's SME Capital Matching Campaign into tiers determining viablilty to be recieve capital funding. Provided Recommedations on strategies on to optimize conversion rate on SME reciving capital funding.",
+      "description": "Developed a comprehensive model to analyze SME applicant data from the JSE's SME Capital Matching Campaign into tiers determining each SMEs viablilty to be recieve capital funding from investors. Provided recommedations on strategies on to optimize conversion rate on SME recieving capital funding.",
       "stack": ["Python", "Pandas", "Power BI"],
       "repo": "https://maindevwork.github.io/SME_Capital_Funding_Optimization/",
       "demo": "",
