@@ -29,8 +29,8 @@
       "featured": true
     },
     {
-      "id": "cross-departmental-demand-revenue-console",
-      "title": "Cross-Departmental Demand & Revenue Insights Console",
+      "id": "demand-revenue-console",
+      "title": "Demand & Revenue Insights Console",
       "category": "jse",
       "summary": "Self-updating tracker consolidating campaign leads and revenue.",
       "description": "Built a self-updating tracker that consolidates daily leads and revenue from campaigns run across multiple divisions. Replaced scattered, manually maintained spreadsheets with a single, date-anchored source of info for tracking and analysing campaign performance.",
