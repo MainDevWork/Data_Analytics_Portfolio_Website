@@ -35,7 +35,7 @@
       "summary": "Self-updating tracker consolidating campaign leads and revenue.",
       "description": "Built a self-updating tracker that consolidates daily leads and revenue from campaigns run across multiple divisions. Replaced scattered, manually maintained spreadsheets with a single, date-anchored source of info for tracking and analysing campaign performance.",
       "stack": ["Microsoft Excel"],
-      "repo": "https://maindevwork.github.io/Cross-Departmental_Demand_Revenue_Insights_Console/",
+      "repo": "https://maindevwork.github.io/Demand_Revenue_Insights_Console/",
       "demo": "",
       "featured": true
     }
