@@ -1,4 +1,4 @@
-import { fetchPortfolioData } from './data.js';
+import { fetchPortfolioData, normalizeCategory } from './data.js';
 import { renderHero, renderProjectCard, renderAbout, renderFooter } from './render.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -22,28 +22,38 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     
     // Render projects
-    const renderProjects = (projectsToRender) => {
+    const renderProjects = (projectsToRender, label) => {
+        if (projectsToRender.length === 0) {
+            projectsGrid.innerHTML = `<p class="projects-empty">No ${label} projects yet.</p>`;
+            return;
+        }
         projectsGrid.innerHTML = projectsToRender.map(renderProjectCard).join('');
         initScrollReveal();
     };
-    
-    renderProjects(data.projects);
-    
+
+    // Show only the projects in the selected category; 'all' shows every project.
+    const applyFilter = (filterValue, label) => {
+        const filter = normalizeCategory(filterValue);
+        const filtered = filter === 'all'
+            ? data.projects
+            : data.projects.filter(p => p.category === filter);
+        renderProjects(filtered, label);
+    };
+
+    renderProjects(data.projects, 'All');
+
     // Filtering logic
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             // Update active state
-            filterBtns.forEach(b => b.classList.remove('active'));
+            filterBtns.forEach(b => {
+                b.classList.remove('active');
+                b.setAttribute('aria-pressed', 'false');
+            });
             btn.classList.add('active');
-            
-            const filterValue = btn.getAttribute('data-filter');
-            
-            if (filterValue === 'all') {
-                renderProjects(data.projects);
-            } else {
-                const filtered = data.projects.filter(p => p.category === filterValue);
-                renderProjects(filtered);
-            }
+            btn.setAttribute('aria-pressed', 'true');
+
+            applyFilter(btn.getAttribute('data-filter'), btn.textContent.trim());
         });
     });
 });

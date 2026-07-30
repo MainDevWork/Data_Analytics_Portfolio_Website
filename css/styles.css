@@ -243,6 +243,13 @@ a:focus, button:focus {
   border-color: var(--text-primary);
 }
 
+.projects-empty {
+  font-family: var(--font-mono);
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  padding: var(--space-lg) 0;
+}
+
 /* Projects Grid */
 .projects-grid {
   display: grid;
