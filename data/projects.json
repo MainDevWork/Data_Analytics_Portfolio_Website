@@ -29,13 +29,13 @@
       "featured": true
     },
     {
-      "id": "content-sunsetting-programme-console",
-      "title": "Content Sunsetting Programme Console",
+      "id": "sunsetting-procedure-console",
+      "title": "Sunsetting Procedure Console",
       "category": "jse",
       "summary": "Page-level tracking system for a website content audit.",
       "description": "Built a tracking system that records the outcome of a website content audit at page level, assigning every URL a named custodian, a sunsetting decision, a reason and a date. Established a single auditable record of ownership and decisions across the site.",
       "stack": ["Power BI", "DAX", "Power Query","Microsoft Excel"],
-      "repo": "https://maindevwork.github.io/Content_Sunsetting_Programme_Console/",
+      "repo": "https://maindevwork.github.io/Sunsetting_Procedure_Console/",
       "demo": "",
       "featured": true
     },
