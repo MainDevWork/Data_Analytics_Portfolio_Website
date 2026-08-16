@@ -21,7 +21,7 @@
       "id": "customer-lifetime-value-churn-prediction",
       "title": "Customer Lifetime Value & Churn Prediction",
       "category": "personal",
-      "summary": "Customer-level model for deciding who is worth keeping.",
+      "summary": "Customer-level model for deciding customers worth retention cost.",
       "description": "Built a model that scores every telecommunications customer on what they are worth and how likely they are to leave. Established a rule that weighs the value saved against the cost of a retention offer, separating customers worth contacting from those to leave alone.",
       "stack": ["Python", "Pandas", "scikit-learn", "SQL", "DuckDB", "Jupyter", "Power BI", "DAX"],
       "repo": "https://maindevwork.github.io/Customer_Lifetime_Value_Churn_Prediction/",
