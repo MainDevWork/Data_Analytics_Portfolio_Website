@@ -40,17 +40,6 @@
       "featured": true
     },
     {
-      "id": "sunsetting-procedure-console",
-      "title": "Sunsetting Procedure Console",
-      "category": "jse",
-      "summary": "Page-level tracking system for a website content audit.",
-      "description": "Built a tracking system that records the outcome of a website content audit at page level, assigning every URL a named custodian, a sunsetting decision, a reason and a date. Established a single auditable record of ownership and decisions across the site.",
-      "stack": ["Power BI", "DAX", "Power Query","Microsoft Excel"],
-      "repo": "https://maindevwork.github.io/Sunsetting_Procedure_Console/",
-      "demo": "",
-      "featured": true
-    },
-    {
       "id": "demand-revenue-console",
       "title": "Demand & Revenue Insights Console",
       "category": "jse",
@@ -58,6 +47,17 @@
       "description": "Built a self-updating tracker that consolidates daily leads and revenue from campaigns run across multiple divisions. Replaced scattered, manually maintained spreadsheets with a single, date-anchored source of info for tracking and analysing campaign performance.",
       "stack": ["Microsoft Excel"],
       "repo": "https://maindevwork.github.io/Demand_Revenue_Insights_Console/",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "id": "sunsetting-procedure-console",
+      "title": "Sunsetting Procedure Console",
+      "category": "jse",
+      "summary": "Page-level tracking system for a website content audit.",
+      "description": "Built a tracking system that records the outcome of a website content audit at page level, assigning every URL a named custodian, a sunsetting decision, a reason and a date. Established a single auditable record of ownership and decisions across the site.",
+      "stack": ["Power BI", "DAX", "Power Query","Microsoft Excel"],
+      "repo": "https://maindevwork.github.io/Sunsetting_Procedure_Console/",
       "demo": "",
       "featured": true
     }
