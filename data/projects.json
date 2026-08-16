@@ -18,6 +18,17 @@
   },
   "projects": [
     {
+      "id": "customer-lifetime-value-churn-prediction",
+      "title": "Customer Lifetime Value & Churn Prediction",
+      "category": "personal",
+      "summary": "Deciding which telecommunications customers are worth spending money to keep.",
+      "description": "Built a model that scores every telecommunications customer on what they are worth and on how likely they are to leave. Applied a rule that weighs the value expected to be saved against the cost of a retention offer, producing a list of the customers worth contacting and the customers to leave alone.",
+      "stack": ["Python", "Pandas", "scikit-learn", "SQL", "DuckDB", "Jupyter", "Power BI", "DAX"],
+      "repo": "https://maindevwork.github.io/Customer_Lifetime_Value_Churn_Prediction/",
+      "demo": "",
+      "featured": true
+    },
+    {
       "id": "sme-rise-capital-matching",
       "title": "SME Capital Funding Optimization",
       "category": "jse",
