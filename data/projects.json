@@ -55,7 +55,7 @@
       "title": "Sunsetting Procedure Console",
       "category": "jse",
       "summary": "Page-by-page website audit scoping a stock exchange's CMS migration.",
-      "description": "Ran a page-by-page audit of a stock exchange's website with stakeholders across the business, identifying which content was to be removed and which was still relevant, so the move to a new content management system carries across only what the business actually needs instead of everything by default. Built the Power BI model behind that audit. Its findings became the formal business case for the migration, a proposal that went up through the organisation and now sits with the executive committee, awaiting their approval.",
+      "description": "Ran a page-by-page audit of a stock exchange's website with stakeholders across the business, identifying which content was to be removed and which was still relevant, so the move to a new content management system carries across only what the business actually needs instead of everything by default. Built the Power BI dashboard that tracks progress across every address: how many have a confirmed custodian, how many have a confirmed decision, and how many have both. Its findings became the formal business case for the migration, a proposal that went up through the organisation and now sits with the executive committee, awaiting their approval.",
       "stack": ["Power BI", "DAX", "Power Query","Microsoft Excel"],
       "repo": "https://maindevwork.github.io/Sunsetting_Procedure_Console/",
       "demo": "",
