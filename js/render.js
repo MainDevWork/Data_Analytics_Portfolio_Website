@@ -27,10 +27,17 @@ export function renderProjectCard(project) {
         ? `<a href="${escapeHTML(project.demo)}" target="_blank" rel="noopener noreferrer">Live Demo</a>` 
         : '';
 
+    const subtitleHTML = project.subtitle
+        ? `<p class="project-subtitle">${escapeHTML(project.subtitle)}</p>`
+        : '';
+
     return `
         <article class="project-card reveal" data-category="${escapeHTML(project.category)}">
             <div class="card-header">
-                <h3 class="project-title">${escapeHTML(project.title)}</h3>
+                <div class="card-heading">
+                    <h3 class="project-title">${escapeHTML(project.title)}</h3>
+                    ${subtitleHTML}
+                </div>
                 <span class="project-category">${escapeHTML(project.category)}</span>
             </div>
             <p class="project-summary">${escapeHTML(project.summary)}</p>

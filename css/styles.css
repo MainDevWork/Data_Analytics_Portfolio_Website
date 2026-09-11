@@ -312,10 +312,21 @@ a:focus, button:focus {
   margin-bottom: var(--space-sm);
 }
 
+.card-heading {
+  min-width: 0;
+}
+
 .project-title {
   font-family: var(--font-mono);
   font-size: 1.25rem;
   color: var(--text-primary);
+}
+
+.project-subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
 }
 
 .project-category {

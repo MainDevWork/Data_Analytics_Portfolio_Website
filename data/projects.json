@@ -18,24 +18,25 @@
   },
   "projects": [
     {
-      "id": "customer-lifetime-value-churn-prediction",
-      "title": "Customer Lifetime Value & Churn Prediction",
-      "category": "personal",
-      "summary": "Customer-level model for deciding customers worth retention cost.",
-      "description": "Built a model that scores every telecommunications customer on what they are worth and how likely they are to leave. Established a rule that weighs the value saved against the cost of a retention offer, separating customers worth contacting from those to leave alone.",
-      "stack": ["Python", "Pandas", "scikit-learn", "SQL", "DuckDB", "Jupyter", "Power BI", "DAX"],
-      "repo": "https://maindevwork.github.io/Customer_Lifetime_Value_Churn_Prediction/",
-      "demo": "",
-      "featured": true
-    },
-    {
       "id": "sme-rise-capital-matching",
-      "title": "SME Capital Funding Optimization",
+      "title": "SME Capital Funding Optimization Project",
+      "subtitle": "JSE SME Capital Matching Initiative",
       "category": "jse",
       "summary": "Data-driven capital matching model for SMEs.",
       "description": "Developed a comprehensive model to analyze SME applicant data from the JSE's SME Capital Matching Campaign into tiers determining each SMEs viablilty to be recieve capital funding from investors. Provided recommedations on strategies on to optimize conversion rate on SME recieving capital funding.",
       "stack": ["Python", "Pandas", "Power BI","DAX","Microsoft Excel"],
       "repo": "https://maindevwork.github.io/SME_Capital_Funding_Optimization/",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "id": "customer-lifetime-value-churn-prediction",
+      "title": "Customer Lifetime Value & Churn Prediction Model",
+      "category": "personal",
+      "summary": "Customer-level model for deciding customers worth retention cost.",
+      "description": "Built a model that scores every telecommunications customer on what they are worth and how likely they are to leave. Established a rule that weighs the value saved against the cost of a retention offer, separating customers worth contacting from those to leave alone.",
+      "stack": ["Python", "Pandas", "scikit-learn", "SQL", "DuckDB", "Jupyter", "Power BI", "DAX"],
+      "repo": "https://maindevwork.github.io/Customer_Lifetime_Value_Churn_Prediction/",
       "demo": "",
       "featured": true
     },
