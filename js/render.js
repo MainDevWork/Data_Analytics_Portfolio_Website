@@ -39,7 +39,7 @@ export function renderProjectCard(project) {
                 ${stackHTML}
             </div>
             <div class="project-links">
-                <a href="${escapeHTML(project.repo)}" target="_blank" rel="noopener noreferrer">View Repo</a>
+                <a href="${escapeHTML(project.repo)}" target="_blank" rel="noopener noreferrer">${escapeHTML(project.linkLabel || 'View Repo')}</a>
                 ${demoLink}
             </div>
         </article>
