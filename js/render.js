@@ -27,6 +27,10 @@ export function renderProjectCard(project) {
         ? `<a href="${escapeHTML(project.demo)}" target="_blank" rel="noopener noreferrer">Live Demo</a>` 
         : '';
 
+    const siteLink = project.site
+        ? `<a href="${escapeHTML(project.site)}" target="_blank" rel="noopener noreferrer">View Site</a>`
+        : '';
+
     return `
         <article class="project-card reveal" data-category="${escapeHTML(project.category)}">
             <div class="card-header">
@@ -39,7 +43,8 @@ export function renderProjectCard(project) {
                 ${stackHTML}
             </div>
             <div class="project-links">
-                <a href="${escapeHTML(project.repo)}" target="_blank" rel="noopener noreferrer">${escapeHTML(project.linkLabel || 'View Repo')}</a>
+                <a href="${escapeHTML(project.repo)}" target="_blank" rel="noopener noreferrer">View Repo</a>
+                ${siteLink}
                 ${demoLink}
             </div>
         </article>
