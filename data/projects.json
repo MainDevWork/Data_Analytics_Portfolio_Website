@@ -60,6 +60,17 @@
       "repo": "https://maindevwork.github.io/Sunsetting_Procedure_Console/",
       "demo": "",
       "featured": true
+    },
+    {
+      "id": "trading-conformance-agent",
+      "title": "Trading Conformance Agent",
+      "category": "jse",
+      "summary": "AI agent that checks client conformance tests against trading messages.",
+      "description": "Built an AI agent that lets JSE Trading Operations analysts question client trading messages in plain English. It checks a client's conformance test report, the tests a client must pass before trading on the live market, against the messages the client sent, and writes the feedback report for the client.",
+      "stack": ["Python", "Pandas", "DuckDB", "SQL", "T-SQL", "JavaScript", "Supabase", "OpenRouter"],
+      "repo": "https://maindevwork.github.io/Trading_Conformance_Agent/",
+      "demo": "",
+      "featured": true
     }
   ]
 }
