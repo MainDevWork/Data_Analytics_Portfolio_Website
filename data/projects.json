@@ -22,7 +22,7 @@
       "title": "Trading Conformance Agent",
       "category": "jse",
       "summary": "AI agent that checks whether client trading systems are ready for the live market.",
-      "description": "Built an AI agent for JSE Trading Operations that checks client conformance test reports against the trading FIX (Financial Information eXchange) messages each client sent. Analysts query the message data in plain English, and the agent writes the feedback report assessing whether the client's trading system passed its conformance tests.",
+      "description": "Built an AI agent for JSE Trading Operations that checks client conformance test reports against the FIX (Financial Information eXchange) messages the JSE recorded during the test. Analysts query the message data in plain English, and the agent writes the feedback report assessing whether the client's trading system passed its conformance tests.",
       "stack": ["Python", "Pandas", "DuckDB", "SQL", "T-SQL", "JavaScript", "Supabase", "OpenRouter"],
       "repo": "https://github.com/MainDevWork/Trading_Conformance_Agent",
       "site": "https://maindevwork.github.io/Trading_Conformance_Agent/",
