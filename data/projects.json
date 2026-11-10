@@ -18,6 +18,17 @@
   },
   "projects": [
     {
+      "id": "trading-conformance-agent",
+      "title": "Trading Conformance Agent",
+      "category": "jse",
+      "summary": "AI agent that checks whether client trading systems are ready for the live market.",
+      "description": "Built an AI agent for JSE Trading Operations that checks client conformance test reports against the trading messages each client sent. Analysts query the message data in plain English, and the agent writes the feedback report assessing whether the client's trading system passed its conformance tests.",
+      "stack": ["Python", "Pandas", "DuckDB", "SQL", "T-SQL", "JavaScript", "Supabase", "OpenRouter"],
+      "repo": "https://maindevwork.github.io/Trading_Conformance_Agent/",
+      "demo": "",
+      "featured": true
+    },
+    {
       "id": "sme-rise-capital-matching",
       "title": "SME Capital Funding Optimization",
       "category": "jse",
@@ -60,17 +71,7 @@
       "repo": "https://maindevwork.github.io/Sunsetting_Procedure_Console/",
       "demo": "",
       "featured": true
-    },
-    {
-      "id": "trading-conformance-agent",
-      "title": "Trading Conformance Agent",
-      "category": "jse",
-      "summary": "AI agent that checks whether client trading systems are ready for the live market.",
-      "description": "Built an AI agent for JSE Trading Operations that checks client conformance test reports against the trading messages each client sent. Analysts query the message data in plain English, and the agent writes the feedback report assessing whether the client's trading system passed its conformance tests.",
-      "stack": ["Python", "Pandas", "DuckDB", "SQL", "T-SQL", "JavaScript", "Supabase", "OpenRouter"],
-      "repo": "https://maindevwork.github.io/Trading_Conformance_Agent/",
-      "demo": "",
-      "featured": true
     }
+
   ]
 }
